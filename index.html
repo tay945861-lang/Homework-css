@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forms Examples</title>
+
+  <!-- Bootstrap 3 CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      padding: 30px;
+    }
+    h3 {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h2>VIII. FORMS</h2>
+
+  <!-- Ex1: TextBox -->
+  <h3>Ex1: TextBox</h3>
+  <form>
+
+    <!-- Small -->
+    <div class="form-group row">
+      <label class="col-sm-2 control-label">Email (Small)</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control input-sm" placeholder="Small Email">
+      </div>
+    </div>
+
+    <!-- Normal -->
+    <div class="form-group row">
+      <label class="col-sm-2 control-label">Email (Normal)</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" placeholder="Normal Email">
+      </div>
+    </div>
+
+    <!-- Large -->
+    <div class="form-group row">
+      <label class="col-sm-2 control-label">Email (Large)</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control input-lg" placeholder="Large Email">
+      </div>
+    </div>
+
+  </form>
+
+  <!-- Ex2: TextArea -->
+  <h3>Ex2: TextArea</h3>
+  <label>Text Area</label>
+  <textarea class="form-control" rows="3" placeholder="Enter your message"></textarea>
+
+  <!-- Ex3: CheckBox -->
+  <h3>Ex3: CheckBox</h3>
+  <p>Checkbox</p>
+
+  <label class="checkbox-inline">
+    <input type="checkbox" value="option1"> Option 1
+  </label>
+
+  <label class="checkbox-inline">
+    <input type="checkbox" value="option2"> Option 2
+  </label>
+
+  <!-- Ex4: Radio -->
+  <h3>Ex4: Radio</h3>
+  <p>Radio</p>
+
+  <label class="checkbox-inline">
+    <input type="radio" name="optionsRadiosInline" value="option1" checked>
+    Option 1
+  </label>
+
+  <label class="checkbox-inline">
+    <input type="radio" name="optionsRadiosInline" value="option2">
+    Option 2
+  </label>
+
+  <!-- Ex5: Select List -->
+  <h3>Ex5: Select List</h3>
+  <label>Select list</label>
+
+  <select class="form-control">
+    <option>Phnom Penh</option>
+    <option>Battambang</option>
+    <option>Takeo</option>
+  </select>
+
+  <!-- Ex6: Buttons -->
+  <h3>Ex6: Standard Buttons</h3>
+
+  <button type="button" class="btn btn-default">Default Button</button>
+  <button type="button" class="btn btn-primary">Primary Button</button>
+  <button type="button" class="btn btn-success">Success Button</button>
+  <button type="button" class="btn btn-info">Info Button</button>
+  <button type="button" class="btn btn-warning">Warning Button</button>
+  <button type="button" class="btn btn-danger">Danger Button</button>
+
+</div>
+
+</body>
+</html>
